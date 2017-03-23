@@ -11,8 +11,8 @@ function ExerciseCtrl($stateProvider) {
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
     name: 'Exercise', // name of the route
-    url: '/', // url endpoint for the route
-    templateUrl: '/FitnessApp/features/exercise/exercise.html', // The url to the view template
+    url: '/exercise', // url endpoint for the route
+    templateUrl: '/js/features/exercise/exercise.html', // The url to the view template
     controller: 'ExerciseCtrl', // The name of the controller to use for this route
     controllerAs: 'ExerciseVM' // The namespace for the view to access the view model
   })

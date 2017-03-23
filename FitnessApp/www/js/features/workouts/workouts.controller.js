@@ -1,3 +1,9 @@
-/**
- * Created by limbert on 3/23/17.
- */
+angular
+  .module('FitnessApp.workouts')
+  .controller('WorkoutsCtrl',WorkoutsCtrl);
+
+function WorkoutsCtrl($scope){
+// code here......
+  var vm = this;
+
+}

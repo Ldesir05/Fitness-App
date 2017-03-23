@@ -5,13 +5,14 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('FitnessApp', [
   'ionic',
-  'FitnessApp.exercise'
+  'FitnessApp.exercise',
+  'FitnessApp.workouts'
 ])
   .config(FitnessAppConfig)
   .run(FitnessAppRun);
 
 function FitnessAppConfig($urlRouterProvider) {
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/exercise');
 }
 function FitnessAppRun($ionicPlatform) {
   $ionicPlatform.ready(function() {

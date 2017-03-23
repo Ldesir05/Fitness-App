@@ -1,10 +1,11 @@
 <ion-view>
   <ion-content>
-    <div class="list">
-      <a class="item item-thumbnail-left" href="#">
-        <img src="cover.jpg">
-        <h2>Pretty Hate Machine</h2>
-        <p>Nine Inch Nails</p>
+    <div ng-repeat="bodypart in workout.name" class="list">
+      <a class="item item-avatar" href="#">
+        <!--create a img folder reference img's -->
+        <img src="venkman.jpg">
+        <h2>{{bodypart}}</h2>
+        <p></p>
       </a>
     </div>
   </ion-content>
