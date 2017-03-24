@@ -6,7 +6,14 @@
 angular.module('FitnessApp', [
   'ionic',
   'FitnessApp.exercise',
-  'FitnessApp.workouts'
+  'FitnessApp.workouts',
+  'FitnessApp.chest',
+  'FitnessApp.back',
+  'FitnessApp.abs',
+  'FitnessApp.leg',
+  'FitnessApp.bicep',
+  'FitnessApp.triceps',
+  'FitnessApp.shoulder'
 ])
   .config(FitnessAppConfig)
   .run(FitnessAppRun);
