@@ -9,7 +9,7 @@ function BackCtrl($stateProvider) {
   // REMEMBER: AngularJS is a single-page application framework. This means we
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
-    name: 'back', // name of the route
+    name: 'Back', // name of the route
     url: '/back', // url endpoint for the route
     templateUrl: '/js/features/back/back.html', // The url to the view template
     controller: 'BackCtrl', // The name of the controller to use for this route

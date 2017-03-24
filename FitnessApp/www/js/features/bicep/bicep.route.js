@@ -9,7 +9,7 @@ function BicepCtrl($stateProvider) {
   // REMEMBER: AngularJS is a single-page application framework. This means we
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
-    name: 'bicep', // name of the route
+    name: 'Biceps', // name of the route
     url: '/bicep', // url endpoint for the route
     templateUrl: '/js/features/bicep/bicep.html', // The url to the view template
     controller: 'BicepCtrl', // The name of the controller to use for this route

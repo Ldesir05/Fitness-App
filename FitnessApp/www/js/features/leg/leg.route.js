@@ -9,7 +9,7 @@ function LegCtrl($stateProvider) {
   // REMEMBER: AngularJS is a single-page application framework. This means we
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
-    name: 'leg', // name of the route
+    name: 'Leg', // name of the route
     url: '/leg', // url endpoint for the route
     templateUrl: '/js/features/leg/leg.html', // The url to the view template
     controller: 'LegCtrl', // The name of the controller to use for this route

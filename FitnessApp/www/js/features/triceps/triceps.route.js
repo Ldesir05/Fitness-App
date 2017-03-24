@@ -9,7 +9,7 @@ function TricepsCtrl($stateProvider) {
   // REMEMBER: AngularJS is a single-page application framework. This means we
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
-    name: 'triceps', // name of the route
+    name: 'Triceps', // name of the route
     url: '/triceps', // url endpoint for the route
     templateUrl: '/js/features/triceps/triceps.html', // The url to the view template
     controller: 'TricepsCtrl', // The name of the controller to use for this route

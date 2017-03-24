@@ -9,7 +9,7 @@ function ShoulderCtrl($stateProvider) {
   // REMEMBER: AngularJS is a single-page application framework. This means we
   // don't have the concept of "pages" but instead we use the concepts of "states"
   $stateProvider.state({
-    name: 'shoulder', // name of the route
+    name: 'Shoulders', // name of the route
     url: '/shoulder', // url endpoint for the route
     templateUrl: '/js/features/shoulder/shoulder.html', // The url to the view template
     controller: 'ShoulderCtrl', // The name of the controller to use for this route

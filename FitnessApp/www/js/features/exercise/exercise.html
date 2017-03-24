@@ -1,10 +1,10 @@
 <ion-view>
   <ion-content>
-    <div ng-repeat="bodypart in workout.name" class="list">
-      <a class="item item-avatar" href="#">
+    <div class="list">
+      <a ng-repeat="bodypart in exerciseArea"  class="item item-avatar" ui-sref="{{bodypart.name}}">
         <!--create a img folder reference img's -->
         <img src="venkman.jpg">
-        <h2>{{bodypart}}</h2>
+        <h2>{{bodypart.name}}</h2>
         <p></p>
       </a>
     </div>
