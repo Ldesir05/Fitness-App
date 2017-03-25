@@ -1,3 +1,5 @@
-/**
- * Created by limbert on 3/23/17.
- */
+angular
+  .module('FitnessApp.progress',[
+    /* add code here ....*/
+  ]);
+

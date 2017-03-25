@@ -1,3 +1,9 @@
-/**
- * Created by limbert on 3/23/17.
- */
+angular
+  .module('FitnessApp.more')
+  .controller('MoreCtrl',MoreCtrl);
+
+function MoreCtrl() {
+  var vm = this;
+
+}
+

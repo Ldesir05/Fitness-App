@@ -1,3 +1,6 @@
-/**
- * Created by limbert on 3/23/17.
- */
+angular
+  .module('FitnessApp.more',[
+    /* add code here ....*/
+  ]);
+
+

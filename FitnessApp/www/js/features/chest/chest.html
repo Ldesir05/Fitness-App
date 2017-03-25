@@ -3,7 +3,7 @@
     <div class="list">
       <a ng-repeat="chest in chestWorkouts" class="item item-avatar" href="#">
         <!--create a img folder reference img's -->
-        <img src="venkman.jpg">
+        <img ng-src="{{chest.img}}">
         <h2>{{chest}}</h2>
         <p></p>
       </a>

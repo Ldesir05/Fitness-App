@@ -13,7 +13,9 @@ angular.module('FitnessApp', [
   'FitnessApp.leg',
   'FitnessApp.bicep',
   'FitnessApp.triceps',
-  'FitnessApp.shoulder'
+  'FitnessApp.shoulder',
+  'FitnessApp.progress',
+  'FitnessApp.more'
 ])
   .config(FitnessAppConfig)
   .run(FitnessAppRun);
